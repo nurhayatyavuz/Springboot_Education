@@ -1,0 +1,18 @@
+package com.exampla.webclient.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class CarResponse {
+    private Integer id;
+    private String marka;
+    private String model;
+    private Integer fiyat;
+    private Integer yil;
+}
